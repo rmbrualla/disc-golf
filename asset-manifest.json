@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/disc-golf/static/css/main.f4a63838.css",
-    "main.js": "/disc-golf/static/js/main.9994f286.js",
+    "main.js": "/disc-golf/static/js/main.6e5a063d.js",
     "static/media/scoreboard-webfont.woff": "/disc-golf/static/media/scoreboard-webfont.e130c5e0710fdc809ebb.woff",
     "static/media/scoreboard-webfont.woff2": "/disc-golf/static/media/scoreboard-webfont.6557d8542c70a5c2c902.woff2",
     "index.html": "/disc-golf/index.html",
     "main.f4a63838.css.map": "/disc-golf/static/css/main.f4a63838.css.map",
-    "main.9994f286.js.map": "/disc-golf/static/js/main.9994f286.js.map"
+    "main.6e5a063d.js.map": "/disc-golf/static/js/main.6e5a063d.js.map"
   },
   "entrypoints": [
     "static/css/main.f4a63838.css",
-    "static/js/main.9994f286.js"
+    "static/js/main.6e5a063d.js"
   ]
 }
