@@ -11,7 +11,7 @@ function App() {
     <div className="bg-gray-500">
       <h1 className="h1">Tanteo Frisbee Golf</h1>
       <div className="mx-auto">
-      <BrowserRouter>
+      <BrowserRouter basename="disc-golf">
         <Routes>
           <Route path="/" element={<CrearTorneo />} />
           <Route path="/resultados" element={<ResultadosTorneo />} />
