@@ -1,0 +1,77 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+    font-family: 'scoreboard';
+    src: url('./fonts/scoreboard-webfont.woff2') format('woff2'),
+         url('./fonts/scoreboard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@layer base {
+    html {
+        @apply bg-gray-600;
+    }
+}
+
+.h1 {
+    @apply mb-4 px-6 py-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white
+}
+
+.h2 {
+    @apply mb-4 px-6 text-4xl font-extrabold dark:text-white
+}
+.h3 {
+    @apply  mb-4 px-6 text-3xl font-bold dark:text-gray-200
+}
+
+.btn-primary {
+    @apply text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2;
+}
+
+.btn-second {
+    @apply text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2;
+}
+  
+.input-text {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+}
+
+.input-score {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-16 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+}
+
+.table {
+    @apply mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mb-4;
+}
+
+.thead {
+    @apply text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400;
+}
+
+.td {
+    @apply px-6 py-3;
+}
+
+.td-score {
+    @apply px-6 py-3;
+    font-family: 'Scoreboard', sans-serif;
+}
+
+.score {
+    font-family: 'Scoreboard', sans-serif;
+}
+
+.tbody {
+    @apply bg-white border-b dark:bg-gray-800 dark:border-gray-700;
+}
+
+.tdh {
+    @apply px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white
+}
