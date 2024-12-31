@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db83f734.css",
+    "main.js": "/static/js/main.9994f286.js",
+    "static/media/scoreboard-webfont.woff": "/static/media/scoreboard-webfont.e130c5e0710fdc809ebb.woff",
+    "static/media/scoreboard-webfont.woff2": "/static/media/scoreboard-webfont.6557d8542c70a5c2c902.woff2",
+    "index.html": "/index.html",
+    "main.db83f734.css.map": "/static/css/main.db83f734.css.map",
+    "main.9994f286.js.map": "/static/js/main.9994f286.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db83f734.css",
+    "static/js/main.9994f286.js"
+  ]
+}
