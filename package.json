@@ -4,7 +4,9 @@
   "description": "Aplicación web para llevar el tanteo de disc golf",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -34,6 +36,7 @@
   "devDependencies": {
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
+    "gh-pages": "^6.2.0",
     "loader-utils": "3.2.1",
     "tailwindcss": "^3.4.17"
   }
